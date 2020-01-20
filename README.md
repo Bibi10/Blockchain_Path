@@ -5,7 +5,7 @@
 I - Blockchain Technology review
 
 - Distributed Ledger
-  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Dledger.png 'Ledger')
+  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger')
 
 A Distributed Ledger is a storage tool that is shared and synchonised across multiple party.It make an information available for any node of the network .
 
@@ -18,18 +18,45 @@ A Distributed Ledger is a storage tool that is shared and synchonised across mul
 - Public & Private blockchain
   There are different types of Blockchain :
 
-  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/Btypes.png 'Types')
+  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchain')
 
 - DL Platforms
 
 II - Blockchain Primitives
 
 - Crypographic Hash Functions
-- Publik Key Cryptography
+
+![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CFunc.png 'Crypto')
+
+Its a hash function use in cryptography which take an input and returns a fixed-size string of bytes.
+The string is called the 'hash value', 'message digest', 'digital fingerprint', 'digest' or 'checksum'.
+
+- Public Key Cryptography
+  Public-Key Cryptography or asymetric cryptography, is a cryptographic system that uses pairs of keys(public and private) algorithm to secure data communication.
+
+![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/PKey.png 'Pkey')
+
 - Merkle Trees
+
+![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Mtree.png 'Tree')
+
+
+Also called hash tree, is a tree in which every leaf node is labelled with the hash of a data block.
+
+- Block 
+![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Block.png 'Block')
+A block contains the set of valid unicode and hash transactions according to the laws of the blockchain.
+
 - Blockchain Structure
+
+![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BStruct.png 'BStruct')
+
 - Building Blockchain
+
 - Smart Contracts
+A smart contract is a self-executing contract with the terms of the agreement between two parties being directly written into lines of code.
+
+
 - Nodes
 - Blockchain Forks
 
