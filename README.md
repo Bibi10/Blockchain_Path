@@ -40,12 +40,11 @@ The string is called the 'hash value', 'message digest', 'digital fingerprint', 
 
 ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Mtree.png 'Tree')
 
-
 Also called hash tree, is a tree in which every leaf node is labelled with the hash of a data block.
 
-- Block 
-![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Block.png 'Block')
-A block contains the set of valid unicode and hash transactions according to the laws of the blockchain.
+- Block
+  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Block.png 'Block')
+  A block contains the set of valid unicode and hash transactions according to the laws of the blockchain.
 
 - Blockchain Structure
 
@@ -54,11 +53,15 @@ A block contains the set of valid unicode and hash transactions according to the
 - Building Blockchain
 
 - Smart Contracts
-A smart contract is a self-executing contract with the terms of the agreement between two parties being directly written into lines of code.
+  A smart contract is a self-executing contract with the terms of the agreement between two parties being directly written into lines of code.
 
+* Nodes
+  The nodes are the administrative body of the blockchain and verify the legitimacy of the transactions in each block.
 
-- Nodes
-- Blockchain Forks
+* Blockchain Forks
+  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Fork.png 'Fork')
+
+A fork is defined variously as: "what happens when a blockchain diverges into two potential paths forward" "a change in protocol" or a situation that "occurs when two or more blocks have the same block height" .
 
 III - Ethereum Basics
 
