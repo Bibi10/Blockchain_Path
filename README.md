@@ -55,10 +55,10 @@ Also called hash tree, is a tree in which every leaf node is labelled with the h
 - Smart Contracts
   A smart contract is a self-executing contract with the terms of the agreement between two parties being directly written into lines of code.
 
-* Nodes
+- Nodes
   The nodes are the administrative body of the blockchain and verify the legitimacy of the transactions in each block.
 
-* Blockchain Forks
+- Blockchain Forks
   ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Fork.png 'Fork')
 
 A fork is defined variously as: "what happens when a blockchain diverges into two potential paths forward" "a change in protocol" or a situation that "occurs when two or more blocks have the same block height" .
