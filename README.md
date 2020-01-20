@@ -4,6 +4,7 @@
 
 I - Blockchain Technology review
 - Distributed Ledger
+
 - Consensus Mechanism
 - Mining 
 - Public & Private blockchian 
@@ -66,7 +67,7 @@ VIII - Writing a smart Contract (Proof of Existance)
 - Debugging Truffle Tests 
 - Practice Writing SC 
 
-VIV - ETHEREUM ANd END Users
+IX - ETHEREUM ANd END Users
 - Introduction to web3
 - Web3 Js Library 
 - Web3 to a Contract 
@@ -88,7 +89,7 @@ X - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
 - Reetrancy Attack Example 
 - Integer Over/Underflow Example 
 
-VI - ADVANCE topics 
+XI - ADVANCE topics 
 - SC Design Patterns 
 - Ethereum Name Service
 - IPFS
@@ -98,7 +99,7 @@ VI - ADVANCE topics
 - Formal Verification
 - ZKP 
 
-VII - ADD TOPICS
+XII - ADD TOPICS
 - LLL
 - Intro Vyper
 - Writing SC in Vyper
