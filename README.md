@@ -5,7 +5,7 @@
 I - Blockchain Technology review
 
 - Distributed Ledger
-  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger')
+![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger')
 
 A Distributed Ledger is a storage tool that is shared and synchonised across multiple party.It make an information available for any node of the network .
 
@@ -18,7 +18,8 @@ A Distributed Ledger is a storage tool that is shared and synchonised across mul
 - Public & Private blockchain
   There are different types of Blockchain :
 
-  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchain')
+
+![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
 
 - DL Platforms
 
