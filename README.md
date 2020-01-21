@@ -18,7 +18,6 @@ A Distributed Ledger is a storage tool that is shared and synchonised across mul
 - Public & Private blockchain
   There are different types of Blockchain :
 
-
 ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
 
 - DL Platforms
