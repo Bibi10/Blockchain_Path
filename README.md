@@ -5,7 +5,9 @@
 I - Blockchain Technology review
 
 - Distributed Ledger
-![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger')
+  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger')
+  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
+
 
 A Distributed Ledger is a storage tool that is shared and synchonised across multiple party.It make an information available for any node of the network .
 
@@ -89,7 +91,7 @@ V - DEV Framework and Env
 - Truffle Dev Env
 - Structure of Truffle Project
 - Ethereum PM
-- Ganche GUI
+- Ganache GUI
 
 VI - SOLIDITY
 
@@ -136,7 +138,7 @@ X - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
 - Safety Checklist
 - Security Analysis Tools
 - txOrigin Attack Demo
-- DEOS Attack Exemple
+- DDOS Attack Exemple
 - Reetrancy Attack Example
 - Integer Over/Underflow Example
 
@@ -145,7 +147,7 @@ XI - ADVANCE topics
 - SC Design Patterns
 - Ethereum Name Service
 - IPFS
-- UgradableContracts
+- Upgradable Contracts
 - Oracles with Rhombus
 - Rhombus Network
 - Formal Verification
