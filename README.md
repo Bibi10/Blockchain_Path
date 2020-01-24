@@ -27,6 +27,8 @@ II - Blockchain Primitives
 
 - Crypographic Hash Functions
 
+https://ethereum.stackexchange.com/questions/550/which-cryptographic-hash-function-does-ethereum-use
+
 ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CFunc.png 'Crypto')
 
 Its a hash function use in cryptography which take an input and returns a fixed-size string of bytes.
@@ -59,6 +61,8 @@ Also called hash tree, is a tree in which every leaf node is labelled with the h
 - Nodes
   The nodes are the administrative body of the blockchain and verify the legitimacy of the transactions in each block.
 
+
+
 - Blockchain Forks
   ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Fork.png 'Fork')
 
@@ -86,16 +90,37 @@ Every interractions in ethereum are transactions between  accounts.
 - Gas 
 Gas is the amount of ETH used to pay for a transaction in the network and its measured in WEI, where 1ETH is 1⁰¹⁸ Wei.
 
+- Tokens 
+Tokens are used to incentivize interrraction with a protocol.
+There are many type of token standar due to people creating their own.
+Exemple : ER223, 777, 827, 721..
 
-IV - Traditionnal and Decentralized App
 
-- Dapp Dev
-- Similarities & Differences
-- Dev Env
+IV - Traditionnal and Distributed App
+
+- Distributed App (dApp)
+A dApp is an app where the server side is unique and run by all ethereum node.
 - Dev Tools
-- Geth
-- Testnet
+Truflle, Embark 
+- Network State 
+Ropsten, Mainnet, Kovan, Testnet, Rinkberry 
+
 - POA Private Network
+
+
+VII - SMART CONTRACTS
+
+- Intro
+- Inter Contract Exec
+- Inheritnce
+- Libraries & EPM
+- SC system Design
+
+VIII - Writing a smart Contract (Proof of Existance)
+
+- Multi Sig Wallet Excercise
+- Debugging Truffle Tests
+- Practice Writing SC
 
 V - DEV Framework and Env
 
@@ -117,19 +142,6 @@ VI - SOLIDITY
 - Events & Logs
 - Factory Contracts
 
-VII - SMART CONTRACTS
-
-- Intro
-- Inter Contract Exec
-- Inheritnce
-- Libraries & EPM
-- SC system Design
-
-VIII - Writing a smart Contract (Proof of Existance)
-
-- Multi Sig Wallet Excercise
-- Debugging Truffle Tests
-- Practice Writing SC
 
 IX - ETHEREUM ANd END Users
 
