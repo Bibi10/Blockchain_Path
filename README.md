@@ -76,14 +76,16 @@ The Ethereum system is comprised of :
 - Accounts
 Ethereum is comprised of objects with 20 byte address that interact with one another,its called an account.
 There are two types of account :
-External owned and Contract account
+Externally  Owned Account and Contract account
+Extrenal account are controlled by private keys with no code associated to.
+Contract accounts are controlled by their contract code and have code associated with them.
 
-- Gas and Fees
 - Transactions
+Every interractions in ethereum are transactions between  accounts.
 
-- Ethereum Structure
-- Ethereum Transactions
-- Ethereum Addresses
+- Gas 
+Gas is the amount of ETH used to pay for a transaction in the network and its measured in WEI, where 1ETH is 1⁰¹⁸ Wei.
+
 
 IV - Traditionnal and Decentralized App
 
