@@ -20,6 +20,7 @@ A Distributed Ledger is a storage tool that is shared and synchonised across mul
   There are different types of Blockchain :
 ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
 
+
 - DL Platforms : 
 
 II - Blockchain Primitives
@@ -65,9 +66,21 @@ A fork is defined variously as: "what happens when a blockchain diverges into tw
 
 III - Ethereum Basics
 
+- What is Ethereum 
+Launched in 2015, Ethereum is the world open source blockchain platform that enables developper to build Decentralized Applications.
+While providing high availability, auditability, transparency, and neutrality, it also reduces or eliminates censorship and reduces certain counterparty risks.
+Like other blockchains, Ethereum has a native cryptocurrency called Ether (ETH). ETH is digital money. If you’ve heard of Bitcoin, ETH has many of the same features. It is purely digital, and can be sent to anyone anywhere in the world instantly. The supply of ETH isn’t controlled by any government or company - it is decentralized, and it is scarce. People all over the world use ETH to make payments, as a store of value, or as collateral.
+
+The Ethereum system is comprised of :
+
 - Accounts
-- Transactions
+Ethereum is comprised of objects with 20 byte address that interact with one another,its called an account.
+There are two types of account :
+External owned and Contract account
+
 - Gas and Fees
+- Transactions
+
 - Ethereum Structure
 - Ethereum Transactions
 - Ethereum Addresses
