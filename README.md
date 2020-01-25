@@ -96,7 +96,7 @@ There are many type of token standar due to people creating their own.
 Exemple : ER223, 777, 827, 721..
 
 
-IV - Traditionnal and Distributed App
+IV - Traditional and Distributed App
 
 - Distributed App (dApp)
 A dApp is an app where the server side is unique and run by all ethereum node.
@@ -104,23 +104,7 @@ A dApp is an app where the server side is unique and run by all ethereum node.
 Truflle, Embark 
 - Network State 
 Ropsten, Mainnet, Kovan, Testnet, Rinkberry 
-
 - POA Private Network
-
-
-VII - SMART CONTRACTS
-
-- Intro
-- Inter Contract Exec
-- Inheritnce
-- Libraries & EPM
-- SC system Design
-
-VIII - Writing a smart Contract (Proof of Existance)
-
-- Multi Sig Wallet Excercise
-- Debugging Truffle Tests
-- Practice Writing SC
 
 V - DEV Framework and Env
 
@@ -141,6 +125,22 @@ VI - SOLIDITY
 - Smart Conracts ABI
 - Events & Logs
 - Factory Contracts
+
+VII - SMART CONTRACTS
+
+- Intro
+- Inter Contract Exec
+- Inheritnce
+- Libraries & EPM
+- SC system Design
+
+VIII - Writing a smart Contract (Proof of Existance)
+
+- Multi Sig Wallet Excercise
+- Debugging Truffle Tests
+- Practice Writing SC
+
+
 
 
 IX - ETHEREUM ANd END Users
