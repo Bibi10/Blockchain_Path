@@ -129,7 +129,8 @@ VI - SOLIDITY
 VII - SMART CONTRACTS
 
 - Intro
-
+Smart Contract 
+Smart Contract are written in solidity language.
 - Inter Contract Exec
 - Inheritnce
 - Libraries & EPM
