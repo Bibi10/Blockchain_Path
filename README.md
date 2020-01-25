@@ -129,6 +129,7 @@ VI - SOLIDITY
 VII - SMART CONTRACTS
 
 - Intro
+
 - Inter Contract Exec
 - Inheritnce
 - Libraries & EPM
