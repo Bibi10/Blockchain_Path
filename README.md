@@ -130,7 +130,7 @@ VII - SMART CONTRACTS
 
 - Intro
 Smart Contract 
-Smart Contract are written in solidity language.
+Smart Contract are written in solidity language and allow developers to interact with the ethereum blockchain.
 - Inter Contract Exec
 - Inheritnce
 - Libraries & EPM
