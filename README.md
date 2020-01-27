@@ -120,6 +120,10 @@ Solidity is a statically typed language, witch means that type of variable needs
 - Data Types and variables
 Booleans => bool : true and false 
 Integers => int/uint  
+Global variables are special variables which exist in global workspace and provide information about blockchain and transaction properties.
+Local variables are only available within a function where it defined.
+State Variables − Variables whose values are permanently stored in a contract storage.
+
 - Functions
 - Storage & Memory
 - Contract Structure
