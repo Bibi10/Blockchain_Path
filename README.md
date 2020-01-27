@@ -116,8 +116,10 @@ V - DEV Framework and Env
 - Ganache GUI
 
 VI - SOLIDITY
-
+Solidity is a statically typed language, witch means that type of variable needs to be specificed.
 - Data Types and variables
+Booleans => bool : true and false 
+Integers => int/uint  
 - Functions
 - Storage & Memory
 - Contract Structure
