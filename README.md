@@ -122,11 +122,15 @@ Booleans => bool : true and false
 Integers => int/uint 
 - variables :
 Global variables are special variables which exist in global workspace and provide information about blockchain and transaction properties.
-Local variables are only available within a function where it defined.
+Ex: Msg.sender
+Local variables are onl y available within a function where it defined.
 State Variables − Variables whose values are permanently stored in a contract storage.
+- Mapping and Adresses 
+Mappings are other way of storing data in solidity.
+Mapping is a essential key value store for storing data.
 
 - Functions
-Its a group of reusable code which can be called anywhere in your program.
+Its a group of reusable cod e which can be called anywhere in your program.
 function name(parameter) scope returns () {
 }
 - Storage & Memory
