@@ -128,20 +128,24 @@ State Variables − Variables whose values are permanently stored in a contract 
 - Functions
 Its a group of reusable code which can be called anywhere in your program.
 function name(parameter) scope returns () {
-  
 }
 - Storage & Memory
-- Contract Structure
-- Reaing smart Contract
-- Smart Conracts ABI
-- Events & Logs
-- Factory Contracts
+    storage: variables defined at the top level inside of the contract. (ex: items)
+    memory: Structs ( Refer to http://solidity.readthedocs.io/en/v0.4.21/types.html if you do not know what a struct is)
+    Storage is a key-value store where keys and values are both 32 bytes. Memory: Memory is a byte-array, which hold the data in it until the execution of the function.
+
 
 VII - SMART CONTRACTS
 
 - Intro
 Smart Contract 
 Smart Contract are written in solidity language and allow developers to interact with the ethereum blockchain.
+- Contract Structure
+Contract are similar to class in object-oriented languages.
+- Creating smart Contract
+- Smart Conracts ABI
+- Events & Logs
+- Factory Contracts
 - Inter Contract Exec
 - Inheritnce
 - Libraries & EPM
