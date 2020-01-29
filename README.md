@@ -88,6 +88,8 @@ Contract accounts are controlled by their contract code and have code associated
 Every interractions in ethereum are transactions between  accounts.
 
 - Gas 
+In solidity users have to pay everytime they execute a function on Dapp.
+How gas is a required to execute a function depends on how complex that function's logic is .
 Gas is the amount of ETH used to pay for a transaction in the network and its measured in WEI, where 1ETH is 1⁰¹⁸ Wei.
 
 - Tokens 
