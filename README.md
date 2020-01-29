@@ -137,13 +137,19 @@ function name(parameter) scope returns () {
     storage: variables defined at the top level inside of the contract. (ex: items)
     memory: Structs ( Refer to http://solidity.readthedocs.io/en/v0.4.21/types.html if you do not know what a struct is)
     Storage is a key-value store where keys and values are both 32 bytes. Memory: Memory is a byte-array, which hold the data in it until the execution of the function.
-
+Storage refers to variables stored permanently on the blockchain. 
+Memory variables are temporary, and are erased between external function calls to your contract. Think of it like your computer's hard disk vs RAM.
 
 VII - SMART CONTRACTS
-
+  
 - Intro
 Smart Contract 
 Smart Contract are written in solidity language and allow developers to interact with the ethereum blockchain.
+
+- Immutability of Contracts 
+After you deploy a contract to Ethereum, its immutable, which means that it can never be modified or updated again.
+The smart contract code is law and no one can later change that function and give you unexpected results. 
+
 - Contract Structure
 Contract are similar to class in object-oriented languages.
 - Creating smart Contract
@@ -160,8 +166,6 @@ VIII - Writing a smart Contract (Proof of Existance)
 - Multi Sig Wallet Excercise
 - Debugging Truffle Tests
 - Practice Writing SC
-
-
 
 
 IX - ETHEREUM ANd END Users
@@ -189,7 +193,7 @@ X - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
 - Integer Over/Underflow Example
 
 XI - ADVANCE topics
-
+- Immutability of Contracts
 - SC Design Patterns
 - Ethereum Name Service
 - IPFS
