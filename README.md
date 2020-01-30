@@ -106,13 +106,14 @@ A dApp is an app where the server side is unique and run by all ethereum node.
 Truflle, Embark 
 - Network State 
 Ropsten, Mainnet, Kovan, Testnet, Rinkberry 
-- POA Private Network
 
 V - DEV Framework and Env
+There are large and growing tools to help developers build test and deploy their applications.
 
 - Metamask
 - Dev Workflow Ganache
-- Truffle Dev Env
+- Truffle : Its a development environment, testing framework.
+- Web3Js : Ethereum Javascript API
 - Structure of Truffle Project
 - Ethereum PM
 - Ganache GUI
