@@ -118,7 +118,7 @@ There are large and growing tools to help developers build test and deploy their
 - Testing Tools: Solidity-Coverage Alternative solidity code coverage tool, hevm, whiteblock Genesis..
 - Block Explorers : Etherscan, Blockscout, Etherchain
 - Testnet : Testnet are network used by developer to test their applications under different conditions before deploying on Ethereum mainnet, Ropsten, Rinkberry, Goerli.
-- Metamask
+- Metamask : Is a bridge that allows you to visit distributed web in your browser.
 - Dev Workflow Ganache
 - Structure of Truffle Project
 - Ethereum PM
@@ -126,6 +126,7 @@ There are large and growing tools to help developers build test and deploy their
 
 VI - SOLIDITY
 Solidity is a statically typed language, witch means that type of variable needs to be specificed.
+https://reference.auditless.com/cheatsheet/
 - Data Types :
 Booleans => bool : true and false 
 Integers => int/uint 
