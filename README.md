@@ -112,7 +112,12 @@ There are large and growing tools to help developers build test and deploy their
 - Truffle : Its a development environment, testing framework.
 - IDEs : Ethereum Studion, Vscode , remix Ethereum
 - Frontend : Web3Js Ethereum Javascript API, Ethers.js, light.js
-- Backend : 
+- Backend : Infura Ethereum API as service,Cloudfare, Alchemy,Chainstack..
+- Storage : IPFS is a decentralized storage and file referencing system for Ethereum, Swarm, OrbitDB..
+- Security Tools: Slither Solidity static analysis framework written in py3, MythX, Myrthril, Securify, ERC20 Verifier..
+- Testing Tools: Solidity-Coverage Alternative solidity code coverage tool, hevm, whiteblock Genesis..
+- Block Explorers : Etherscan, Blockscout, Etherchain
+- Testnet : Testnet are network used by developer to test their applications under different conditions before deploying on Ethereum mainnet, Ropsten, Rinkberry, Goerli.
 - Metamask
 - Dev Workflow Ganache
 - Structure of Truffle Project
