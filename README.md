@@ -107,13 +107,14 @@ Truflle, Embark
 - Network State 
 Ropsten, Mainnet, Kovan, Testnet, Rinkberry 
 
-V - DEV Framework and Env
+V - DEV Tools
 There are large and growing tools to help developers build test and deploy their applications.
-
+- Truffle : Its a development environment, testing framework.
+- IDEs : Ethereum Studion, Vscode , remix Ethereum
+- Frontend : Web3Js Ethereum Javascript API, Ethers.js, light.js
+- Backend : 
 - Metamask
 - Dev Workflow Ganache
-- Truffle : Its a development environment, testing framework.
-- Web3Js : Ethereum Javascript API
 - Structure of Truffle Project
 - Ethereum PM
 - Ganache GUI
