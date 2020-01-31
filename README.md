@@ -102,6 +102,7 @@ IV - Traditional and Distributed App
 
 - Distributed App (dApp)
 A dApp is an app where the server side is unique and run by all ethereum node.
+Dapp are way of building app for internet, it lets us run app with backend hosted on blockchain instead of normal server.
 - Dev Tools
 Truflle, Embark 
 - Network State 
