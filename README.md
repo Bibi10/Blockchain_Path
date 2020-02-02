@@ -104,7 +104,8 @@ IV - Traditional and Distributed App
 A dApp is an app where the server side is unique and run by all ethereum node.
 Dapp are way of building app for internet, it lets us run app with backend hosted on blockchain instead of normal server.
 There are many platform of coding decntralized application : 
-Since computing is one most important aspects of building dapps.
+Since computing is one most important aspects of building dapps, it make sense to get further with interracting wih smart contracts and then proceding further.
+
 
 - Dev Tools
 Truflle, Embark 
@@ -158,7 +159,9 @@ VII - SMART CONTRACTS
   
 - Intro
 Smart Contract 
-Smart Contract are written in solidity language and allow developers to interact with the ethereum blockchain.
+Smart Contract are written in solidity language and allow developers to interact with blockchain.
+The most powerful feature of smart contract its the fact once coded cannot be stoped or edited, so its important to architect it well before develop it.
+The most popular blockchain development platform is Ethereum.
 
 - Immutability of Contracts 
 After you deploy a contract to Ethereum, its immutable, which means that it can never be modified or updated again.
