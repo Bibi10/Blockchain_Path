@@ -20,7 +20,6 @@ A Distributed Ledger is a storage tool that is shared and synchonised across mul
   There are different types of Blockchain :
 ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
 
-
 - DL Platforms : 
 
 II - Blockchain Primitives
@@ -61,8 +60,6 @@ Also called hash tree, is a tree in which every leaf node is labelled with the h
 - Nodes
   The nodes are the administrative body of the blockchain and verify the legitimacy of the transactions in each block.
 
-
-
 - Blockchain Forks
   ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Fork.png 'Fork')
 
@@ -91,6 +88,8 @@ Every interractions in ethereum are transactions between  accounts.
 In solidity users have to pay everytime they execute a function on Dapp.
 How gas is a required to execute a function depends on how complex that function's logic is .
 Gas is the amount of ETH used to pay for a transaction in the network and its measured in WEI, where 1ETH is 1⁰¹⁸ Wei.
+Fee for transaction = Total gas used * gas price;
+
 
 - Tokens 
 Tokens are used to incentivize interrraction with a protocol.
@@ -131,21 +130,16 @@ Metamask is a wallet that acts as a bridge between Ethereum blockchain and Chrom
 
 - Network State 
 While writing Ethereum Virtual Machine programs, you have to pay for the gas usage and launch of the app. Also, an untested program can lead to high costs as Ethereum blockchain is immutable and transactions added to it cannot be undone.
-Therefore, it is required to test a dApp before deploying it on the main network. Developers then use :
-Ropsten, Kovan, Testnet or Rinkberry .
-
+Therefore, it is required to test a dApp before deploying it on the main network(mainnet).
+- Block Explorers : Etherscan, Blockscout, Etherchain
+- Testnet : Testnet are network used by developer to test their applications under different conditions before deploying on Ethereum mainnet, Ropsten, Rinkberry, Goerli.
+- Metamask : Is a bridge that allows you to visit distributed web in your browser.
 - Frontend : Web3Js Ethereum Javascript API, Ethers.js, light.js
 - Backend : Infura Ethereum API as service,Cloudfare, Alchemy,Chainstack..
 - Storage : IPFS is a decentralized storage and file referencing system for Ethereum, Swarm, OrbitDB..
 - Security Tools: Slither Solidity static analysis framework written in py3, MythX, Myrthril, Securify, ERC20 Verifier..
-- Testing Tools: Solidity-Coverage Alternative solidity code coverage tool, hevm, whiteblock Genesis..
-- Block Explorers : Etherscan, Blockscout, Etherchain
-- Testnet : Testnet are network used by developer to test their applications under different conditions before deploying on Ethereum mainnet, Ropsten, Rinkberry, Goerli.
-- Metamask : Is a bridge that allows you to visit distributed web in your browser.
-- Dev Workflow Ganache
-- Structure of Truffle Project
-- Ethereum PM
-- Ganache GUI
+- Testing Tools: Solidity-Coverage Alternative solidity code coverage tool, hevm, whiteblock Genesis.
+
 
 VI - SOLIDITY
 Solidity is a statically typed language, witch means that type of variable needs to be specificed.
@@ -180,6 +174,12 @@ The most powerful feature of smart contract its the fact once coded cannot be st
 The most popular blockchain development platform is Ethereum.
 
 - Immutability of Contracts 
+Interestingly enough, the invention of smart contracts dates back to 1996. Computer scientist Nick Szabo drew up the term “smart contracts,” and explains them as follows:
+
+“I call these new contracts “smart”, because they are far more functional than their inanimate paper-based ancestors. No use of artificial intelligence is implied. A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises”
+— Nick Szabo, 1996
+His work later went on to inspire many other researchers and scientists, including Vitalik, who created Ethereum.
+
 After you deploy a contract to Ethereum, its immutable, which means that it can never be modified or updated again.
 The smart contract code is law and no one can later change that function and give you unexpected results. 
 
