@@ -108,6 +108,11 @@ Since computing is one most important aspects of building dapps, it make sense t
 
 
 - Dev Tools
+Many blockchain development tools have been introduced to help develop blockchain.
+
+. Remix IDE : is an online web based development platform that help create, test and deploying smart contract.
+
+
 Truflle, Embark 
 - Network State 
 Ropsten, Mainnet, Kovan, Testnet, Rinkberry 
