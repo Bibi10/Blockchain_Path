@@ -110,10 +110,20 @@ Since computing is one most important aspects of building dapps, it make sense t
 - Dev Tools
 Many blockchain development tools have been introduced to help develop blockchain.
 
-. Remix IDE : is an online web based development platform that help create, test and deploying smart contract.
+. Remix IDE(![alt text]( 
+  https://remix.ethereum.org/) : is an online web based development platform that help create, test and deploying smart contract.
+
+. Truflle Framework(![alt text]( 
+  https://www.trufflesuite.com/):  Is a framework for Ethereum that is install on computer and help develop and automate contract testing using chai and Mocha.
+
+. Geth(![alt text]https://geth.ethereum.org/downloads/): 
+Geth is an ethereum client used for running ethereum nodes and can be used for mining ether tokens, create smart contracts, transfer tokens and explore the block history.
+
+. Ganache(![alt text]https://www.trufflesuite.com/ganache):
+Ganache is a tool from Truffle Suite that allows developers to create their own private Ethereum blockchain to test dApps. Deploying a dApp directly on Ethereum can cost you a lot of gas to verify transactions.
 
 
-Truflle, Embark 
+
 - Network State 
 Ropsten, Mainnet, Kovan, Testnet, Rinkberry 
 
