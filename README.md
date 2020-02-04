@@ -107,7 +107,7 @@ There are many platform of coding decntralized application :
 Since computing is one most important aspects of building dapps, it make sense to get further with interracting wih smart contracts and then proceding further.
 
 
-- Dev Tools
+V - DEV Tools
 Many blockchain development tools have been introduced to help develop blockchain.
 
 . Remix IDE(![alt text]( 
@@ -122,15 +122,18 @@ Geth is an ethereum client used for running ethereum nodes and can be used for m
 . Ganache(![alt text]https://www.trufflesuite.com/ganache):
 Ganache is a tool from Truffle Suite that allows developers to create their own private Ethereum blockchain to test dApps. Deploying a dApp directly on Ethereum can cost you a lot of gas to verify transactions.
 
+. Metamask
+Metamask is a wallet that acts as a bridge between Ethereum blockchain and Chrome or Firefox by working as a browser extension. It can be used for saving keys for ERC20 tokens and Ether.
 
+. Ethereum Studio (![alt text] https://studio.ethereum.org/)
+ 
+. Vscode
 
 - Network State 
-Ropsten, Mainnet, Kovan, Testnet, Rinkberry 
+While writing Ethereum Virtual Machine programs, you have to pay for the gas usage and launch of the app. Also, an untested program can lead to high costs as Ethereum blockchain is immutable and transactions added to it cannot be undone.
+Therefore, it is required to test a dApp before deploying it on the main network. Developers then use :
+Ropsten, Kovan, Testnet or Rinkberry .
 
-V - DEV Tools
-There are large and growing tools to help developers build test and deploy their applications.
-- Truffle : Its a development environment, testing framework.
-- IDEs : Ethereum Studion, Vscode , remix Ethereum
 - Frontend : Web3Js Ethereum Javascript API, Ethers.js, light.js
 - Backend : Infura Ethereum API as service,Cloudfare, Alchemy,Chainstack..
 - Storage : IPFS is a decentralized storage and file referencing system for Ethereum, Swarm, OrbitDB..
@@ -171,7 +174,6 @@ Storage refers to variables stored permanently on the blockchain.
 Memory variables are temporary, and are erased between external function calls to your contract. Think of it like your computer's hard disk vs RAM.
 
 VII - SMART CONTRACTS
-  
 - Intro
 Smart Contract 
 Smart Contract are written in solidity language and allow developers to interact with blockchain.
