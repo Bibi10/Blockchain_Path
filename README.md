@@ -175,7 +175,6 @@ Memory variables are temporary, and are erased between external function calls t
 
 VII - SMART CONTRACTS
 - Intro
-Smart Contract 
 Smart Contract are written in solidity language and allow developers to interact with blockchain.
 The most powerful feature of smart contract its the fact once coded cannot be stoped or edited, so its important to architect it well before develop it.
 The most popular blockchain development platform is Ethereum.
@@ -185,8 +184,11 @@ After you deploy a contract to Ethereum, its immutable, which means that it can 
 The smart contract code is law and no one can later change that function and give you unexpected results. 
 
 - Contract Structure
-Contract are similar to class in object-oriented languages.
+Contract are similar to class in object-oriented languages and contin declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
+![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
+
 - Creating smart Contract
+
 - Smart Conracts ABI
 - Events & Logs
 - Factory Contracts
