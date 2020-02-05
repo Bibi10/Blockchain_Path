@@ -115,12 +115,13 @@ Geth is an ethereum client used for running ethereum nodes and can be used for m
 . Ganache(![alt text]https://www.trufflesuite.com/ganache):
 Ganache is a tool from Truffle Suite that allows developers to create their own private Ethereum blockchain to test dApps. Deploying a dApp directly on Ethereum can cost you a lot of gas to verify transactions.
 
-. Metamask
+. Metamask (![alt text]https://metamask.io/)
+
 Metamask is a wallet that acts as a bridge between Ethereum blockchain and Chrome or Firefox by working as a browser extension. It can be used for saving keys for ERC20 tokens and Ether.
 
 . Ethereum Studio (![alt text] https://studio.ethereum.org/)
 
-. Vscode
+. Vscode (![alt text]https://code.visualstudio.com/)
 
 - Network State
   While writing Ethereum Virtual Machine programs, you have to pay for the gas usage and launch of the app. Also, an untested program can lead to high costs as Ethereum blockchain is immutable and transactions added to it cannot be undone.
@@ -176,7 +177,7 @@ His work later went on to inspire many other researchers and scientists, includi
   The smart contract code is law and no one can later change that function and give you unexpected results.
 
 - Contract Structure
-  Contract are similar to class in object-oriented languages and contin declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
+  Contract are similar to class in object-oriented languages and contain declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
   ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
 - Multi Sig Wallet Excercise
 - Practice Writing SC
@@ -193,10 +194,7 @@ VIII - ETHEREUM ANd END Users
 - Rimble UI
 
 IX - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
-We will implement the simplest form of a cryptocurrency.
-That can be send and exchange with anyone withut needing to register with username and password.All you need is a keypair.
-This code basically lets you mint and send tokens to other accounts.
-https://www.freecodecamp.org/news/how-to-write-and-deploy-your-first-smart-contract-341d5e2ffb35/
+We will create a diploma certificate on blockchain
 
 - Writing Tests
 - Catching solidity erros in truffle Tests
