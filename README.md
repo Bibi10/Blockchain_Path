@@ -184,14 +184,37 @@ His work later went on to inspire many other researchers and scientists, includi
 
 The most popular blockchain development platform is Ethereum.
 
-VIII - ETHEREUM ANd END Users
-- Introduction to web3
+VIII - ETHEREUM Javascript API : Web3JS
+
+- Introduction to web3JS
+  Web3.js is a collection of librairies which allow you to interact with a local or remote ethereum node, using http or ipc connection.
+
 - Web3 Js Library
-- Web3 to a Contract
-- Building Truffle for the Web
-- Update to Metamask
-- Integrating with React
-- Rimble UI
+  FIrst you need to get web3.js into your project by the following methods :
+  . npm: npm install web3
+  . meteor: meteor add ethereum:web3
+  . pure js: link the dist/web3.min.js
+
+The web3-eth is for the Ethereum blockchain and smart contracts
+The web3-shh is for the whisper protocol to communicate p2p and broadcast
+The web3-utils contains useful helper functions for DApp developers.
+
+- Web3 Parameters
+. provider - string|object: A URL or one of the Web3 provider classes.
+. net - net.Socket (optional): The net NodeJS package.
+. options - object (optional) The Web3 options
+
+Example : 
+import Web3 from 'web3';
+
+// "Web3.givenProvider" will be set in a Ethereum supported browser.
+const web3 = new Web3(Web3.givenProvider || 'ws://some.local-or-remote.node:8546', net, options);
+
+> web3.eth
+> web3.shh
+> web3.utils
+> web3.version
+
 
 IX - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
 We will create a diploma certificate on blockchain
