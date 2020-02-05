@@ -5,8 +5,7 @@
 I - Blockchain Technology review
 
 - Distributed Ledger
-![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger')
-
+  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger')
 
 A Distributed Ledger is a storage tool that is shared and synchonised across multiple party.It make an information available for any node of the network .
 
@@ -18,9 +17,9 @@ A Distributed Ledger is a storage tool that is shared and synchonised across mul
 
 - Public & Private blockchain
   There are different types of Blockchain :
-![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
+  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
 
-- DL Platforms : 
+- DL Platforms :
 
 II - Blockchain Primitives
 
@@ -67,55 +66,50 @@ A fork is defined variously as: "what happens when a blockchain diverges into tw
 
 III - Ethereum Basics
 
-- What is Ethereum 
-Launched in 2015, Ethereum is the world open source blockchain platform that enables developper to build Decentralized Applications.
-While providing high availability, auditability, transparency, and neutrality, it also reduces or eliminates censorship and reduces certain counterparty risks.
-Like other blockchains, Ethereum has a native cryptocurrency called Ether (ETH). ETH is digital money. If you’ve heard of Bitcoin, ETH has many of the same features. It is purely digital, and can be sent to anyone anywhere in the world instantly. The supply of ETH isn’t controlled by any government or company - it is decentralized, and it is scarce. People all over the world use ETH to make payments, as a store of value, or as collateral.
+- What is Ethereum
+  Launched in 2015, Ethereum is the world open source blockchain platform that enables developper to build Decentralized Applications.
+  While providing high availability, auditability, transparency, and neutrality, it also reduces or eliminates censorship and reduces certain counterparty risks.
+  Like other blockchains, Ethereum has a native cryptocurrency called Ether (ETH). ETH is digital money. If you’ve heard of Bitcoin, ETH has many of the same features. It is purely digital, and can be sent to anyone anywhere in the world instantly. The supply of ETH isn’t controlled by any government or company - it is decentralized, and it is scarce. People all over the world use ETH to make payments, as a store of value, or as collateral.
 
 The Ethereum system is comprised of :
 
 - Accounts
-Ethereum is comprised of objects with 20 byte address that interact with one another,its called an account.
-There are two types of account :
-Externally  Owned Account and Contract account
-Extrenal account are controlled by private keys with no code associated to.
-Contract accounts are controlled by their contract code and have code associated with them.
+  Ethereum is comprised of objects with 20 byte address that interact with one another,its called an account.
+  There are two types of account :
+  Externally Owned Account and Contract account
+  Extrenal account are controlled by private keys with no code associated to.
+  Contract accounts are controlled by their contract code and have code associated with them.
 
 - Transactions
-Every interractions in ethereum are transactions between  accounts.
+  Every interractions in ethereum are transactions between accounts.
 
-- Gas 
-In solidity users have to pay everytime they execute a function on Dapp.
-How gas is a required to execute a function depends on how complex that function's logic is .
-Gas is the amount of ETH used to pay for a transaction in the network and its measured in WEI, where 1ETH is 1⁰¹⁸ Wei.
-Fee for transaction = Total gas used * gas price;
+- Gas
+  In solidity users have to pay everytime they execute a function on Dapp.
+  How gas is a required to execute a function depends on how complex that function's logic is .
+  Gas is the amount of ETH used to pay for a transaction in the network and its measured in WEI, where 1ETH is 1⁰¹⁸ Wei.
+  Fee for transaction = Total gas used \* gas price;
 
-
-- Tokens 
-Tokens are used to incentivize interrraction with a protocol.
-There are many type of token standar due to people creating their own.
-Exemple : ER223, 777, 827, 721..
-
+* Tokens
+  Tokens are used to incentivize interrraction with a protocol.
+  There are many type of token standar due to people creating their own.
+  Exemple : ER223, 777, 827, 721..
 
 IV - Traditional and Distributed App
 
 - Distributed App (dApp)
-A dApp is an app where the server side is unique and run by all ethereum node.
-Dapp are way of building app for internet, it lets us run app with backend hosted on blockchain instead of normal server.
-There are many platform of coding decntralized application : 
-Since computing is one most important aspects of building dapps, it make sense to get further with interracting wih smart contracts and then proceding further.
-
+  A dApp is an app where the server side is unique and run by all ethereum node.
+  Dapp are way of building app for internet, it lets us run app with backend hosted on blockchain instead of normal server.
+  There are many platform of coding decntralized application :
+  Since computing is one most important aspects of building dapps, it make sense to get further with interracting wih smart contracts and then proceding further.
 
 V - DEV Tools
 Many blockchain development tools have been introduced to help develop blockchain.
 
-. Remix IDE(![alt text]( 
-  https://remix.ethereum.org/) : is an online web based development platform that help create, test and deploying smart contract.
+. Remix IDE(![alt text](https://remix.ethereum.org/) : is an online web based development platform that help create, test and deploying smart contract.
 
-. Truflle Framework(![alt text]( 
-  https://www.trufflesuite.com/):  Is a framework for Ethereum that is install on computer and help develop and automate contract testing using chai and Mocha.
+. Truflle Framework(![alt text](https://www.trufflesuite.com/): Is a framework for Ethereum that is install on computer and help develop and automate contract testing using chai and Mocha.
 
-. Geth(![alt text]https://geth.ethereum.org/downloads/): 
+. Geth(![alt text]https://geth.ethereum.org/downloads/):
 Geth is an ethereum client used for running ethereum nodes and can be used for mining ether tokens, create smart contracts, transfer tokens and explore the block history.
 
 . Ganache(![alt text]https://www.trufflesuite.com/ganache):
@@ -125,12 +119,12 @@ Ganache is a tool from Truffle Suite that allows developers to create their own 
 Metamask is a wallet that acts as a bridge between Ethereum blockchain and Chrome or Firefox by working as a browser extension. It can be used for saving keys for ERC20 tokens and Ether.
 
 . Ethereum Studio (![alt text] https://studio.ethereum.org/)
- 
+
 . Vscode
 
-- Network State 
-While writing Ethereum Virtual Machine programs, you have to pay for the gas usage and launch of the app. Also, an untested program can lead to high costs as Ethereum blockchain is immutable and transactions added to it cannot be undone.
-Therefore, it is required to test a dApp before deploying it on the main network(mainnet).
+- Network State
+  While writing Ethereum Virtual Machine programs, you have to pay for the gas usage and launch of the app. Also, an untested program can lead to high costs as Ethereum blockchain is immutable and transactions added to it cannot be undone.
+  Therefore, it is required to test a dApp before deploying it on the main network(mainnet).
 - Block Explorers : Etherscan, Blockscout, Etherchain
 - Testnet : Testnet are network used by developer to test their applications under different conditions before deploying on Ethereum mainnet, Ropsten, Rinkberry, Goerli.
 - Metamask : Is a bridge that allows you to visit distributed web in your browser.
@@ -140,57 +134,56 @@ Therefore, it is required to test a dApp before deploying it on the main network
 - Security Tools: Slither Solidity static analysis framework written in py3, MythX, Myrthril, Securify, ERC20 Verifier..
 - Testing Tools: Solidity-Coverage Alternative solidity code coverage tool, hevm, whiteblock Genesis.
 
-
 VI - SOLIDITY
 Solidity is a statically typed language, witch means that type of variable needs to be specificed.
 https://reference.auditless.com/cheatsheet/
+
 - Data Types :
-Booleans => bool : true and false 
-Integers => int/uint 
+  Booleans => bool : true and false
+  Integers => int/uint
 - variables :
-Global variables are special variables which exist in global workspace and provide information about blockchain and transaction properties.
-Ex: Msg.sender
-Local variables are only available within a function where it defined.
-State Variables − Variables whose values are permanently stored in a contract storage.
+  Global variables are special variables which exist in global workspace and provide information about blockchain and transaction properties.
+  Ex: Msg.sender
+  Local variables are only available within a function where it defined.
+  State Variables − Variables whose values are permanently stored in a contract storage.
 - Mapping  
-Mappings are other way of storing data in solidity.
-Mapping is a essential key value store for storing data.
+  Mappings are other way of storing data in solidity.
+  Mapping is a essential key value store for storing data.
 
 - Functions
-Its a group of reusable cod e which can be called anywhere in your program.
-function name(parameter) scope returns () {
-}
+  Its a group of reusable cod e which can be called anywhere in your program.
+  function name(parameter) scope returns () {
+  }
 - Storage & Memory
-    storage: variables defined at the top level inside of the contract. (ex: items)
-    memory: Structs ( Refer to http://solidity.readthedocs.io/en/v0.4.21/types.html if you do not know what a struct is)
-    Storage is a key-value store where keys and values are both 32 bytes. Memory: Memory is a byte-array, which hold the data in it until the execution of the function.
-Storage refers to variables stored permanently on the blockchain. 
-Memory variables are temporary, and are erased between external function calls to your contract. Think of it like your computer's hard disk vs RAM.
+  storage: variables defined at the top level inside of the contract. (ex: items)
+  memory: Structs ( Refer to http://solidity.readthedocs.io/en/v0.4.21/types.html if you do not know what a struct is)
+  Storage is a key-value store where keys and values are both 32 bytes. Memory: Memory is a byte-array, which hold the data in it until the execution of the function.
+  Storage refers to variables stored permanently on the blockchain.
+  Memory variables are temporary, and are erased between external function calls to your contract. Think of it like your computer's hard disk vs RAM.
 
 VII - SMART CONTRACTS
+
 - Intro
-Smart Contract are written in solidity language and allow developers to interact with blockchain.
-The most powerful feature of smart contract its the fact once coded cannot be stoped or edited, so its important to architect it well before develop it.
-The most popular blockchain development platform is Ethereum.
+  Smart Contract are written in solidity language and allow developers to interact with blockchain.
 
 . Interestingly enough, the invention of smart contracts dates back to 1996. Computer scientist Nick Szabo drew up the term “smart contracts,” and explains them as follows:
 “I call these new contracts “smart”, because they are far more functional than their inanimate paper-based ancestors. No use of artificial intelligence is implied. A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises”
 — Nick Szabo, 1996
 His work later went on to inspire many other researchers and scientists, including Vitalik, who created Ethereum.
 
-- Immutability of Contracts 
-After you deploy a contract to Ethereum, its immutable, which means that it can never be modified or updated again.
-The smart contract code is law and no one can later change that function and give you unexpected results. 
+- Immutability of Contracts
+  After you deploy a contract to Ethereum, its immutable, which means that it can never be modified or updated again, so its important to architect it well before develop it.
+  The smart contract code is law and no one can later change that function and give you unexpected results.
 
 - Contract Structure
-Contract are similar to class in object-oriented languages and contin declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
-![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
-
+  Contract are similar to class in object-oriented languages and contin declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
+  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
 - Multi Sig Wallet Excercise
 - Practice Writing SC
 
-VIII - ETHEREUM ANd END Users
+The most popular blockchain development platform is Ethereum.
 
+VIII - ETHEREUM ANd END Users
 - Introduction to web3
 - Web3 Js Library
 - Web3 to a Contract
@@ -200,7 +193,6 @@ VIII - ETHEREUM ANd END Users
 - Rimble UI
 
 IX - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
-
 We will implement the simplest form of a cryptocurrency.
 That can be send and exchange with anyone withut needing to register with username and password.All you need is a keypair.
 This code basically lets you mint and send tokens to other accounts.
@@ -226,6 +218,7 @@ https://www.freecodecamp.org/news/how-to-write-and-deploy-your-first-smart-contr
 - SC system Design
 
 X - ADVANCE topics
+
 - Immutability of Contracts
 - SC Design Patterns
 - Ethereum Name Service
