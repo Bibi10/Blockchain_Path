@@ -186,25 +186,10 @@ The smart contract code is law and no one can later change that function and giv
 Contract are similar to class in object-oriented languages and contin declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
 ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
 
-- Smart Conracts ABI
-- Events & Logs
-- Factory Contracts
-- Inter Contract Exec
-- Inheritnce
-- Libraries & EPM
-- SC system Design
-
-VIII - Writing the smart Contract
-We will implement the simplest form of a cryptocurrency.
-That can be send and exchange with anyone withut needing to register with username and password.All you need is a keypair.
-This code basically lets you mint and send tokens to other accounts.
-https://www.freecodecamp.org/news/how-to-write-and-deploy-your-first-smart-contract-341d5e2ffb35/
 - Multi Sig Wallet Excercise
-- Debugging Truffle Tests
 - Practice Writing SC
 
-
-IX - ETHEREUM ANd END Users
+VIII - ETHEREUM ANd END Users
 
 - Introduction to web3
 - Web3 Js Library
@@ -214,7 +199,12 @@ IX - ETHEREUM ANd END Users
 - Integrating with React
 - Rimble UI
 
-X - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
+IX - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
+
+We will implement the simplest form of a cryptocurrency.
+That can be send and exchange with anyone withut needing to register with username and password.All you need is a keypair.
+This code basically lets you mint and send tokens to other accounts.
+https://www.freecodecamp.org/news/how-to-write-and-deploy-your-first-smart-contract-341d5e2ffb35/
 
 - Writing Tests
 - Catching solidity erros in truffle Tests
@@ -227,8 +217,15 @@ X - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
 - DDOS Attack Exemple
 - Reetrancy Attack Example
 - Integer Over/Underflow Example
+- Smart Conracts ABI
+- Events & Logs
+- Factory Contracts
+- Inter Contract Exec
+- Inheritnce
+- Libraries & EPM
+- SC system Design
 
-XI - ADVANCE topics
+X - ADVANCE topics
 - Immutability of Contracts
 - SC Design Patterns
 - Ethereum Name Service
@@ -239,7 +236,7 @@ XI - ADVANCE topics
 - Formal Verification
 - ZKP
 
-XII - ADD TOPICS
+XI - ADD TOPICS
 
 - LLL
 - Intro Vyper
