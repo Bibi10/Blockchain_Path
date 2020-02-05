@@ -173,21 +173,18 @@ Smart Contract are written in solidity language and allow developers to interact
 The most powerful feature of smart contract its the fact once coded cannot be stoped or edited, so its important to architect it well before develop it.
 The most popular blockchain development platform is Ethereum.
 
-- Immutability of Contracts 
-Interestingly enough, the invention of smart contracts dates back to 1996. Computer scientist Nick Szabo drew up the term “smart contracts,” and explains them as follows:
-
+. Interestingly enough, the invention of smart contracts dates back to 1996. Computer scientist Nick Szabo drew up the term “smart contracts,” and explains them as follows:
 “I call these new contracts “smart”, because they are far more functional than their inanimate paper-based ancestors. No use of artificial intelligence is implied. A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises”
 — Nick Szabo, 1996
 His work later went on to inspire many other researchers and scientists, including Vitalik, who created Ethereum.
 
+- Immutability of Contracts 
 After you deploy a contract to Ethereum, its immutable, which means that it can never be modified or updated again.
 The smart contract code is law and no one can later change that function and give you unexpected results. 
 
 - Contract Structure
 Contract are similar to class in object-oriented languages and contin declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
 ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
-
-- Creating smart Contract
 
 - Smart Conracts ABI
 - Events & Logs
@@ -197,8 +194,11 @@ Contract are similar to class in object-oriented languages and contin declaratio
 - Libraries & EPM
 - SC system Design
 
-VIII - Writing a smart Contract (Proof of Existance)
-
+VIII - Writing the smart Contract
+We will implement the simplest form of a cryptocurrency.
+That can be send and exchange with anyone withut needing to register with username and password.All you need is a keypair.
+This code basically lets you mint and send tokens to other accounts.
+https://www.freecodecamp.org/news/how-to-write-and-deploy-your-first-smart-contract-341d5e2ffb35/
 - Multi Sig Wallet Excercise
 - Debugging Truffle Tests
 - Practice Writing SC
