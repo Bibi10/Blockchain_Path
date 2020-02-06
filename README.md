@@ -181,9 +181,10 @@ His work later went on to inspire many other researchers and scientists, includi
   (![alt text]https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
 
 - Contract Design Patterns
-  Best practices for solving problem exist in software engineering as in blockchain engeenering.(![alt text] https://www.reddit.com/r/ethereum/comments/4omdlf/to_kickstart_the_building_safer_smart_contracts/)
+  Best practices for solving problem exist in software engineering as in blockchain engeenering.
 
 List of Patterns (![alt text] https://medium.com/@i6mi6/solidty-smart-contracts-design-patterns-ecfa3b1e9784) :
+https://eprints.cs.univie.ac.at/5665/1/bare_conf.pdf
 
 - Lifecycle : Contract Self Destruction
   Used to terminate or destroy a contract when its served it purpose.
@@ -243,27 +244,9 @@ Authorisation : Ownership, Access Restriction
   This pattern allows you to only keep the address of one contract, instead of tens, hundreds or even thousands, as your DApp grows in scale. It works by storing a mapping contract name => contract address so each address can be looked up from within the DApp by callinggetAddress("ClothesFactory").
 
 - Mapping Iterator :
-  Many times we need to iterate a mapping, but since mappings in Solidity cannot be iterated and they only store values, the Mapping Iterator pattern turns out to be extremely useful. Some things to keep in mind are that as elements count goes up the complexity of iteration will increase, as well as the storage cost, so avoid iterating when possible. Implementation:
+  Many times we need to iterate a mapping, but since mappings in Solidity cannot be iterated and they only store values, the Mapping Iterator pattern turns out to be extremely useful. Some things to keep in mind are that as elements count goes up the complexity of iteration will increase, as well as the storage cost, so avoid iterating when possible. 
 
-* Multi Sig Wallet Excercise
-* Practice Writing SC
-* Writing Tests
-* Catching solidity erros in truffle Tests
-* Exploit and Dangers
-* Optimizing Gas
-* Safety Checklist
-* Security Analysis Tools
-* txOrigin Attack Demo
-* DDOS Attack Exemple
-* Reetrancy Attack Example
-* Integer Over/Underflow Example
-* Smart Conracts ABI
-* Events & Logs
-* Factory Contracts
-* Inter Contract Exec
-* Inheritnce
-* Libraries & EPM
-* SC system Design
+- Security(![alt text] https://www.reddit.com/r/ethereum/comments/4omdlf/to_kickstart_the_building_safer_smart_contracts/)
 
 The most popular blockchain development platform is Ethereum.
 
