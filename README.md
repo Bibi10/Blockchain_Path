@@ -178,9 +178,88 @@ His work later went on to inspire many other researchers and scientists, includi
 
 - Contract Structure
   Contract are similar to class in object-oriented languages and contain declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
-  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
+  (![alt text]https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
+
+- Contract Design Patterns
+  Best practices for solving problem exist in software engineering as in blockchain engeenering.(![alt text]https://github.com/ConsenSys/smart-contract-best-practices/blob/master/docs/bibliography.md)
+  https://www.reddit.com/r/ethereum/comments/4omdlf/to_kickstart_the_building_safer_smart_contracts/
+
+List of
+
+Lifecycle : Contract Self Destruction
+Used to terminate or destroy a contract when its served it purpose.
+Lets look at the code:
+
+contract SelfDesctructionContract {
+public address owner;
+public string someValue;
+modifier ownerRestricted {
+require(owner == msg.sender);
+\_;
+}
+// constructor
+function SelfDesctructionContract() {
+owner = msg.sender;
+}
+// a simple setter function
+function setSomeValue(string value){
+someValue = value;
+}
+// you can call it anything you want
+function destroyContract() ownerRestricted {
+suicide(owner);
+}
+}
+
+Object : Factory Contract
+Is used to create and deploy child contract(referred to as "assets") addresses so the can be safe and used later.
+
+contract CarShop {
+address[] carAssets;
+function createChildContract(string brand, string model) public payable {
+// insert check if the sent ether is enough to cover the car asset ...
+address newCarAsset = new CarAsset(brand, model, msg.sender);  
+ carAssets.push(newCarAsset);  
+ }
+function getDeployedChildContracts() public view returns (address[]) {
+return carAssets;
+}
+}
+contract CarAsset {
+string public brand;
+string public model;
+address public owner;
+function CarAsset(string \_brand, string \_model, address \_owner) public {
+brand = \_brand;
+model = \_model;
+owner = \_owner;
+}
+}
+
+Widrawal : Withdrawal pattern
+Maintenance : Data segregation
+Security : Balance Limit
+Authorisation : Ownership, Access Restriction
+
 - Multi Sig Wallet Excercise
 - Practice Writing SC
+- Writing Tests
+- Catching solidity erros in truffle Tests
+- Exploit and Dangers
+- Optimizing Gas
+- Safety Checklist
+- Security Analysis Tools
+- txOrigin Attack Demo
+- DDOS Attack Exemple
+- Reetrancy Attack Example
+- Integer Over/Underflow Example
+- Smart Conracts ABI
+- Events & Logs
+- Factory Contracts
+- Inter Contract Exec
+- Inheritnce
+- Libraries & EPM
+- SC system Design
 
 The most popular blockchain development platform is Ethereum.
 
@@ -200,13 +279,12 @@ The web3-shh is for the whisper protocol to communicate p2p and broadcast
 The web3-utils contains useful helper functions for DApp developers.
 
 - Web3 Parameters
-. provider - string|object: A URL or one of the Web3 provider classes.
-. net - net.Socket (optional): The net NodeJS package.
-. options - object (optional) The Web3 options
+  . provider - string|object: A URL or one of the Web3 provider classes.
+  . net - net.Socket (optional): The net NodeJS package.
+  . options - object (optional) The Web3 options
 
-Example : 
+Example :
 import Web3 from 'web3';
-
 // "Web3.givenProvider" will be set in a Ethereum supported browser.
 const web3 = new Web3(Web3.givenProvider || 'ws://some.local-or-remote.node:8546', net, options);
 
@@ -215,28 +293,13 @@ const web3 = new Web3(Web3.givenProvider || 'ws://some.local-or-remote.node:8546
 > web3.utils
 > web3.version
 
-
 IX - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
 We will create a diploma certificate on blockchain
-
-- Writing Tests
-- Catching solidity erros in truffle Tests
-- SC Pest Practices
-- Exploit and Dangers
-- Optimizing Gas
-- Safety Checklist
-- Security Analysis Tools
-- txOrigin Attack Demo
-- DDOS Attack Exemple
-- Reetrancy Attack Example
-- Integer Over/Underflow Example
-- Smart Conracts ABI
-- Events & Logs
-- Factory Contracts
-- Inter Contract Exec
-- Inheritnce
-- Libraries & EPM
-- SC system Design
+Putting your diploma on blockchain makes it immutable and you won't rely on any governments or institutions to keep your records.
+1- Environment setup
+. Download Metamask(![alt text] https://studio.ethereum.org/):
+Lets go on the link and install the online wallet handler; don't worry about buying ethers we can have some testnets ones.
+2- Lets go on remix (![alt text] http://remix.ethereum.org/)
 
 X - ADVANCE topics
 
@@ -258,5 +321,7 @@ XI - ADD TOPICS
 - EIPs
 
 ## CRYPTOCURRENCY
+
+## FUNDRAISING
 
 ## TRADING
