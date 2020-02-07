@@ -210,7 +210,7 @@ suicide(owner);
 }
 }
 
-- Object : Factory Contract
+- Factory Pattern
   Is used to create and deploy child contract(referred to as "assets") addresses so the can be safe and used later.
 
 contract CarShop {
@@ -244,7 +244,7 @@ Authorisation : Ownership, Access Restriction
   This pattern allows you to only keep the address of one contract, instead of tens, hundreds or even thousands, as your DApp grows in scale. It works by storing a mapping contract name => contract address so each address can be looked up from within the DApp by callinggetAddress("ClothesFactory").
 
 - Mapping Iterator :
-  Many times we need to iterate a mapping, but since mappings in Solidity cannot be iterated and they only store values, the Mapping Iterator pattern turns out to be extremely useful. Some things to keep in mind are that as elements count goes up the complexity of iteration will increase, as well as the storage cost, so avoid iterating when possible. 
+  Many times we need to iterate a mapping, but since mappings in Solidity cannot be iterated and they only store values, the Mapping Iterator pattern turns out to be extremely useful. Some things to keep in mind are that as elements count goes up the complexity of iteration will increase, as well as the storage cost, so avoid iterating when possible.
 
 - Security(![alt text] https://www.reddit.com/r/ethereum/comments/4omdlf/to_kickstart_the_building_safer_smart_contracts/)
 
@@ -284,9 +284,13 @@ IX - SMART CONTRACT PITFALLS,TESTING AND DEBUGGING
 We will create a diploma certificate on blockchain
 Putting your diploma on blockchain makes it immutable and you won't rely on any governments or institutions to keep your records.
 1- Environment setup
-. Download Metamask(![alt text] https://studio.ethereum.org/):
-Lets go on the link and install the online wallet handler; don't worry about buying ethers we can have some testnets ones.
-2- Lets go on remix (![alt text] http://remix.ethereum.org/)
+
+- Download Metamask(![alt text] https://studio.ethereum.org/):
+  Lets go on the link and install the online wallet handler; don't worry about buying ethers we can have some testnets ones.
+- Lets go on remix (![alt text] http://remix.ethereum.org/)
+
+2- Dapp Architecture
+Le'ts start designing our application by using the factory pattern.
 
 X - ADVANCE topics
 
