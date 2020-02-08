@@ -5,19 +5,21 @@
 I - Blockchain Technology review
 
 - Distributed Ledger
-  (![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger'))
+
+![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger')
 
 A Distributed Ledger is a storage tool that is shared and synchonised across multiple party.It make an information available for any node of the network .
 
 - Consensus Mechanism
-  Its a fault taulerant mechanism that is used in blockchain system to achieve necessary agreement on a state of the network among distributed process.
+It's a fault taulerant mechanism that is used in blockchain system to achieve necessary agreement on a state of the network among distributed process.
 
 - Mining
-  Mining process involve solving complex mathematical problem using intrinsec hash fonctions linked to the block containing transaction data.Miners compete with each other to be the first to solve the mathematical puzzle.
+Mining process involve solving complex mathematical problem using intrinsec hash fonctions linked to the block containing transaction data.Miners compete with each other to be the first to solve the mathematical puzzle.
 
 - Public & Private blockchain
-  There are different types of Blockchain :
-  [!alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
+There are different types of Blockchain :
+
+![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
 
 - DL Platforms :
 
@@ -44,7 +46,9 @@ The string is called the 'hash value', 'message digest', 'digital fingerprint', 
 Also called hash tree, is a tree in which every leaf node is labelled with the hash of a data block.
 
 - Block
+
   ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Block.png 'Block')
+
   A block contains the set of valid unicode and hash transactions according to the laws of the blockchain.
 
 - Blockchain Structure
@@ -60,6 +64,7 @@ Also called hash tree, is a tree in which every leaf node is labelled with the h
   The nodes are the administrative body of the blockchain and verify the legitimacy of the transactions in each block.
 
 - Blockchain Forks
+
   ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/Fork.png 'Fork')
 
 A fork is defined variously as: "what happens when a blockchain diverges into two potential paths forward" "a change in protocol" or a situation that "occurs when two or more blocks have the same block height" .
@@ -114,13 +119,13 @@ Geth is an ethereum client used for running ethereum nodes and can be used for m
 . [Ganache](https://www.trufflesuite.com/ganache):
 Ganache is a tool from Truffle Suite that allows developers to create their own private Ethereum blockchain to test dApps. Deploying a dApp directly on Ethereum can cost you a lot of gas to verify transactions.
 
-. [Metamask] (https://metamask.io/)
+. [Metamask](https://metamask.io/)
 
 Metamask is a wallet that acts as a bridge between Ethereum blockchain and Chrome or Firefox by working as a browser extension. It can be used for saving keys for ERC20 tokens and Ether.
 
-. [Ethereum Studio] ( https://studio.ethereum.org/)
+. [Ethereum Studio](https://studio.ethereum.org/)
 
-. [Vscode] (https://code.visualstudio.com/)
+. [Vscode](https://code.visualstudio.com/)
 
 - Network State
   While writing Ethereum Virtual Machine programs, you have to pay for the gas usage and launch of the app. Also, an untested program can lead to high costs as Ethereum blockchain is immutable and transactions added to it cannot be undone.
@@ -176,7 +181,8 @@ His work later went on to inspire many other researchers and scientists, includi
 
 - Contract Structure
   Contract are similar to class in object-oriented languages and contain declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
-  (![alt text]https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png'CStruct')
+
+  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png'CStruct')
 
 - Contract Design Patterns
   Best practices for solving problem exist in software engineering as in blockchain engeenering.
@@ -244,7 +250,7 @@ Authorisation : Ownership, Access Restriction
 - Mapping Iterator :
   Many times we need to iterate a mapping, but since mappings in Solidity cannot be iterated and they only store values, the Mapping Iterator pattern turns out to be extremely useful. Some things to keep in mind are that as elements count goes up the complexity of iteration will increase, as well as the storage cost, so avoid iterating when possible.
 
-- Security( https://www.reddit.com/r/ethereum/comments/4omdlf/to_kickstart_the_building_safer_smart_contracts/)
+- [Security](https://www.reddit.com/r/ethereum/comments/4omdlf/to_kickstart_the_building_safer_smart_contracts/)
 
 The most popular blockchain development platform is Ethereum.
 
@@ -283,9 +289,9 @@ We will create a diploma certificate on blockchain
 Putting your diploma on blockchain makes it immutable and you won't rely on any governments or institutions to keep your records.
 1- Environment setup
 
-- Download Metamask( https://studio.ethereum.org/):
+- [Download Metamask](https://studio.ethereum.org/):
   Lets go on the link and install the online wallet handler; don't worry about buying ethers we can have some testnets ones.
-- Lets go on remix ( http://remix.ethereum.org/)
+- Lets go on [remix](http://remix.ethereum.org/)
 
 2- Dapp Architecture
 Le'ts start designing our application by using the factory pattern.
