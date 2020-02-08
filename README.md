@@ -11,12 +11,13 @@ I - Blockchain Technology review
 A Distributed Ledger is a storage tool that is shared and synchonised across multiple party.It make an information available for any node of the network .
 
 - Consensus Mechanism
-It's a fault taulerant mechanism that is used in blockchain system to achieve necessary agreement on a state of the network among distributed process.
+  It's a fault taulerant mechanism that is used in blockchain system to achieve necessary agreement on a state of the network among distributed process.
 
 - Mining
-Mining process involve solving complex mathematical problem using intrinsec hash fonctions linked to the block containing transaction data.Miners compete with each other to be the first to solve the mathematical puzzle.
+  Mining process involve solving complex mathematical problem using intrinsec hash fonctions linked to the block containing transaction data.Miners compete with each other to be the first to solve the mathematical puzzle.
 
 - Public & Private blockchain
+
 There are different types of Blockchain :
 
 ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
@@ -113,19 +114,19 @@ Many blockchain development tools have been introduced to help develop blockchai
 . [Remix IDE](https://remix.ethereum.org/) : is an online web based development platform that help create, test and deploying smart contract.
 . Truflle Framework((https://www.trufflesuite.com/): Is a framework for Ethereum that is install on computer and help develop and automate contract testing using chai and Mocha.
 
-. [Geth](https://geth.ethereum.org/downloads/):
+. [Geth](https://geth.ethereum.org/downloads/) :
 Geth is an ethereum client used for running ethereum nodes and can be used for mining ether tokens, create smart contracts, transfer tokens and explore the block history.
 
-. [Ganache](https://www.trufflesuite.com/ganache):
+. [Ganache](https://www.trufflesuite.com/ganache) :
 Ganache is a tool from Truffle Suite that allows developers to create their own private Ethereum blockchain to test dApps. Deploying a dApp directly on Ethereum can cost you a lot of gas to verify transactions.
 
-. [Metamask](https://metamask.io/)
+. [Metamask](https://metamask.io/) :
 
 Metamask is a wallet that acts as a bridge between Ethereum blockchain and Chrome or Firefox by working as a browser extension. It can be used for saving keys for ERC20 tokens and Ether.
 
-. [Ethereum Studio](https://studio.ethereum.org/)
+. [Ethereum Studio](https://studio.ethereum.org/) :
 
-. [Vscode](https://code.visualstudio.com/)
+. [Vscode](https://code.visualstudio.com/) :
 
 - Network State
   While writing Ethereum Virtual Machine programs, you have to pay for the gas usage and launch of the app. Also, an untested program can lead to high costs as Ethereum blockchain is immutable and transactions added to it cannot be undone.
@@ -182,7 +183,7 @@ His work later went on to inspire many other researchers and scientists, includi
 - Contract Structure
   Contract are similar to class in object-oriented languages and contain declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
 
-  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png'CStruct')
+  [!alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
 
 - Contract Design Patterns
   Best practices for solving problem exist in software engineering as in blockchain engeenering.
