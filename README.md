@@ -5,7 +5,7 @@
 I - Blockchain Technology review
 
 - Distributed Ledger
-  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger')
+  (![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/DLedger.png 'Ledger'))
 
 A Distributed Ledger is a storage tool that is shared and synchonised across multiple party.It make an information available for any node of the network .
 
@@ -17,7 +17,7 @@ A Distributed Ledger is a storage tool that is shared and synchonised across mul
 
 - Public & Private blockchain
   There are different types of Blockchain :
-  ![alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
+  [!alt text](https://github.com/Bibi10/Blockchain_Path/blob/master/BTypes.png 'Blockchains')
 
 - DL Platforms :
 
@@ -105,23 +105,22 @@ IV - Traditional and Distributed App
 V - DEV Tools
 Many blockchain development tools have been introduced to help develop blockchain.
 
-. Remix IDE(![alt text](https://remix.ethereum.org/) : is an online web based development platform that help create, test and deploying smart contract.
+. [Remix IDE](https://remix.ethereum.org/) : is an online web based development platform that help create, test and deploying smart contract.
+. Truflle Framework((https://www.trufflesuite.com/): Is a framework for Ethereum that is install on computer and help develop and automate contract testing using chai and Mocha.
 
-. Truflle Framework(![alt text](https://www.trufflesuite.com/): Is a framework for Ethereum that is install on computer and help develop and automate contract testing using chai and Mocha.
-
-. Geth(![alt text]https://geth.ethereum.org/downloads/):
+. [Geth](https://geth.ethereum.org/downloads/):
 Geth is an ethereum client used for running ethereum nodes and can be used for mining ether tokens, create smart contracts, transfer tokens and explore the block history.
 
-. Ganache(![alt text]https://www.trufflesuite.com/ganache):
+. [Ganache](https://www.trufflesuite.com/ganache):
 Ganache is a tool from Truffle Suite that allows developers to create their own private Ethereum blockchain to test dApps. Deploying a dApp directly on Ethereum can cost you a lot of gas to verify transactions.
 
-. Metamask (![alt text]https://metamask.io/)
+. [Metamask] (https://metamask.io/)
 
 Metamask is a wallet that acts as a bridge between Ethereum blockchain and Chrome or Firefox by working as a browser extension. It can be used for saving keys for ERC20 tokens and Ether.
 
-. Ethereum Studio (![alt text] https://studio.ethereum.org/)
+. [Ethereum Studio] ( https://studio.ethereum.org/)
 
-. Vscode (![alt text]https://code.visualstudio.com/)
+. [Vscode] (https://code.visualstudio.com/)
 
 - Network State
   While writing Ethereum Virtual Machine programs, you have to pay for the gas usage and launch of the app. Also, an untested program can lead to high costs as Ethereum blockchain is immutable and transactions added to it cannot be undone.
@@ -137,7 +136,6 @@ Metamask is a wallet that acts as a bridge between Ethereum blockchain and Chrom
 
 VI - SOLIDITY
 Solidity is a statically typed language, witch means that type of variable needs to be specificed.
-https://reference.auditless.com/cheatsheet/
 
 - Data Types :
   Booleans => bool : true and false
@@ -150,7 +148,6 @@ https://reference.auditless.com/cheatsheet/
 - Mapping  
   Mappings are other way of storing data in solidity.
   Mapping is a essential key value store for storing data.
-
 - Functions
   Its a group of reusable cod e which can be called anywhere in your program.
   function name(parameter) scope returns () {
@@ -161,6 +158,7 @@ https://reference.auditless.com/cheatsheet/
   Storage is a key-value store where keys and values are both 32 bytes. Memory: Memory is a byte-array, which hold the data in it until the execution of the function.
   Storage refers to variables stored permanently on the blockchain.
   Memory variables are temporary, and are erased between external function calls to your contract. Think of it like your computer's hard disk vs RAM.
+- [Cheat Code](https://reference.auditless.com/cheatsheet/)
 
 VII - SMART CONTRACTS
 
@@ -178,12 +176,12 @@ His work later went on to inspire many other researchers and scientists, includi
 
 - Contract Structure
   Contract are similar to class in object-oriented languages and contain declaration of State Variables, Functions, Function Modifiers, Events, Struct Types and Enum Types.
-  (![alt text]https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png 'CStruct')
+  (![alt text]https://github.com/Bibi10/Blockchain_Path/blob/master/CStruct.png'CStruct')
 
 - Contract Design Patterns
   Best practices for solving problem exist in software engineering as in blockchain engeenering.
 
-List of Patterns (![alt text] https://medium.com/@i6mi6/solidty-smart-contracts-design-patterns-ecfa3b1e9784) :
+[List of Patterns](https://medium.com/@i6mi6/solidty-smart-contracts-design-patterns-ecfa3b1e9784) :
 https://eprints.cs.univie.ac.at/5665/1/bare_conf.pdf
 
 - Lifecycle : Contract Self Destruction
@@ -246,7 +244,7 @@ Authorisation : Ownership, Access Restriction
 - Mapping Iterator :
   Many times we need to iterate a mapping, but since mappings in Solidity cannot be iterated and they only store values, the Mapping Iterator pattern turns out to be extremely useful. Some things to keep in mind are that as elements count goes up the complexity of iteration will increase, as well as the storage cost, so avoid iterating when possible.
 
-- Security(![alt text] https://www.reddit.com/r/ethereum/comments/4omdlf/to_kickstart_the_building_safer_smart_contracts/)
+- Security( https://www.reddit.com/r/ethereum/comments/4omdlf/to_kickstart_the_building_safer_smart_contracts/)
 
 The most popular blockchain development platform is Ethereum.
 
@@ -285,9 +283,9 @@ We will create a diploma certificate on blockchain
 Putting your diploma on blockchain makes it immutable and you won't rely on any governments or institutions to keep your records.
 1- Environment setup
 
-- Download Metamask(![alt text] https://studio.ethereum.org/):
+- Download Metamask( https://studio.ethereum.org/):
   Lets go on the link and install the online wallet handler; don't worry about buying ethers we can have some testnets ones.
-- Lets go on remix (![alt text] http://remix.ethereum.org/)
+- Lets go on remix ( http://remix.ethereum.org/)
 
 2- Dapp Architecture
 Le'ts start designing our application by using the factory pattern.
