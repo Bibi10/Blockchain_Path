@@ -302,6 +302,15 @@ Le'ts start designing our application by using the factory pattern to create a m
 - Public viewers 'action' can gifts Ethers to the smart contract
 - Smart contract owner can withdraw the gifted Ethers on his wallet 
 
+
+pragma solidity ^0.4.19;
+contract Marriage {
+    // You will declare your global vars here
+    constructor() public {
+        // You will instantiate your contract here
+    }
+}
+
 X - ADVANCE topics
 
 - Immutability of Contracts
