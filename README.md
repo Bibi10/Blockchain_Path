@@ -296,10 +296,11 @@ Putting your diploma on blockchain makes it immutable and you won't rely on any 
 
 2- Dapp Architecture
 Le'ts start designing our application by using the factory pattern to create a marriage contract.
-- Store the contract owner/creator's details 
--
 
-
+- Store the contract owner/creator's details
+- Store the couple's names and marriage vows
+- Public viewers 'action' can gifts Ethers to the smart contract
+- Smart contract owner can withdraw the gifted Ethers on his wallet 
 
 X - ADVANCE topics
 
