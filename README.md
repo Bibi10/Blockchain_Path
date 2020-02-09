@@ -295,7 +295,11 @@ Putting your diploma on blockchain makes it immutable and you won't rely on any 
 - Lets go on [remix](http://remix.ethereum.org/)
 
 2- Dapp Architecture
-Le'ts start designing our application by using the factory pattern.
+Le'ts start designing our application by using the factory pattern to create a marriage contract.
+- Store the contract owner/creator's details 
+-
+
+
 
 X - ADVANCE topics
 
