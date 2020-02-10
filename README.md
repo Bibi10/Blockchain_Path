@@ -321,6 +321,7 @@ address public owner; //helps identify SC or personnal wallet
 2- Store the couple's names and marriage vows
 
 contract Marriage {
+
 //owner address
 address public owner;
 // Marriage Contract details
@@ -330,7 +331,7 @@ string public rightName;
 string public rightVows;
 string public marriageDate;
 
-    constructor(address _owner, string _leftName, string _leftVows, string _rightName, string _rightVows, uint _date ) public {
+constructor(address _owner, string _leftName, string _leftVows, string _rightName, string _rightVows, uint _date ) public {
 
 owner = _owner;
 leftName = _leftName;
@@ -338,10 +339,34 @@ leftVows = _leftVows;
 rightName = _rightName;
 rightVows = _rightVows;
 marriageDate = _date; 
-
     }
 
+//msg.value => save contains designed amount from sender in its own ledger
+//msg.sender => Money sender address
+//require() => used to validate user inputs and cond test
+//If the conditions are not met, the user’s transaction is immediately halted and the remaining gas are immediately refunded to the sender.
+
+function ringBell() public payable {
+  //minimum gift to sent
+    require(msg.value > .0001 ether);
 }
+
+//reusable modifier
+modifier onlyOwner() {
+  require(msg.sender == owner);
+  _; //placeholder for the contents of the fxo you are modififying
+}
+
+function collect() external onlyOwner {
+  owner.transfer(addres(this).balance);
+}
+
+function getBalance() public view onlyOwner returns (uint) {
+  return address(this).balance;
+}
+
+}
+
 
 X - ADVANCE topics
 
