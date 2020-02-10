@@ -93,7 +93,7 @@ The Ethereum system is comprised of :
   In solidity users have to pay everytime they execute a function on Dapp.
   How gas is a required to execute a function depends on how complex that function's logic is .
   Gas is the amount of ETH used to pay for a transaction in the network and its measured in WEI, where 1ETH is 1⁰¹⁸ Wei.
-  Fee for transaction = Total gas used \* gas price;
+  Fee for transaction = Total gas used * gas price;
 
 * Tokens
   Tokens are used to incentivize interrraction with a protocol.
@@ -199,7 +199,7 @@ public address owner;
 public string someValue;
 modifier ownerRestricted {
 require(owner == msg.sender);
-\_;
+_;
 }
 // constructor
 function SelfDesctructionContract() {
@@ -233,10 +233,10 @@ contract CarAsset {
 string public brand;
 string public model;
 address public owner;
-function CarAsset(string \_brand, string \_model, address \_owner) public {
-brand = \_brand;
-model = \_model;
-owner = \_owner;
+function CarAsset(string _brand, string _model, address _owner) public {
+brand = _brand;
+model = _model;
+owner = _owner;
 }
 }
 
@@ -297,18 +297,50 @@ Putting your diploma on blockchain makes it immutable and you won't rely on any 
 2- Dapp Architecture
 Le'ts start designing our application by using the factory pattern to create a marriage contract.
 
-- Store the contract owner/creator's details
-- Store the couple's names and marriage vows
 - Public viewers 'action' can gifts Ethers to the smart contract
-- Smart contract owner can withdraw the gifted Ethers on his wallet 
+- Smart contract owner can withdraw the gifted Ethers on his wallet
 
-
-pragma solidity ^0.4.19;
+pragma solidity ^0.4.22;
 contract Marriage {
-    // You will declare your global vars here
-    constructor() public {
-        // You will instantiate your contract here
+// Variable global declaration
+constructor() public { //Creation de nouvelle instance du contract
+// Instantiation de contract
+}
+}
+
+1- Storing marriage contract's owner
+address public owner; //helps identify SC or personnal wallet
+
+- Save address each time a new certificate contract is instanciated.
+  constructor(address _owner) public {
+  owner = _owner;
+  }
+
+- Factory contract to call constructor function and pass the owner address
+
+2- Store the couple's names and marriage vows
+
+contract Marriage {
+//owner address
+address public owner;
+// Marriage Contract details
+string public leftName;
+string public leftVows;
+string public rightName;
+string public rightVows;
+string public marriageDate;
+
+    constructor(address _owner, string _leftName, string _leftVows, string _rightName, string _rightVows, uint _date ) public {
+
+owner = _owner;
+leftName = _leftName;
+leftVows = _leftVows;
+rightName = _rightName;
+rightVows = _rightVows;
+marriageDate = _date; 
+
     }
+
 }
 
 X - ADVANCE topics
