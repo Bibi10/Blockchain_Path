@@ -188,57 +188,14 @@ His work later went on to inspire many other researchers and scientists, includi
 - Contract Design Patterns
   Best practices for solving problem exist in software engineering as in blockchain engeenering.
 
-[List of Patterns](https://medium.com/@i6mi6/solidty-smart-contracts-design-patterns-ecfa3b1e9784) :
-https://eprints.cs.univie.ac.at/5665/1/bare_conf.pdf
+[Commons Patterns](https://solidity.readthedocs.io/en/v0.4.24/common-patterns.html)
+
 
 - Lifecycle : Contract Self Destruction
   Used to terminate or destroy a contract when its served it purpose.
 
-contract SelfDesctructionContract {
-public address owner;
-public string someValue;
-modifier ownerRestricted {
-require(owner == msg.sender);
-_;
-}
-// constructor
-function SelfDesctructionContract() {
-owner = msg.sender;
-}
-// a simple setter function
-function setSomeValue(string value){
-someValue = value;
-}
-// you can call it anything you want
-function destroyContract() ownerRestricted {
-suicide(owner);
-}
-}
-
 - Factory Pattern
   Is used to create and deploy child contract(referred to as "assets") addresses so the can be safe and used later.
-
-contract CarShop {
-address[] carAssets;
-function createChildContract(string brand, string model) public payable {
-// insert check if the sent ether is enough to cover the car asset ...
-address newCarAsset = new CarAsset(brand, model, msg.sender);  
- carAssets.push(newCarAsset);  
- }
-function getDeployedChildContracts() public view returns (address[]) {
-return carAssets;
-}
-}
-contract CarAsset {
-string public brand;
-string public model;
-address public owner;
-function CarAsset(string _brand, string _model, address _owner) public {
-brand = _brand;
-model = _model;
-owner = _owner;
-}
-}
 
 Widrawal : Withdrawal pattern
 Maintenance : Data segregation
@@ -329,7 +286,7 @@ string public leftName;
 string public leftVows;
 string public rightName;
 string public rightVows;
-string public marriageDate;
+uint public marriageDate;
 
 constructor(address _owner, string _leftName, string _leftVows, string _rightName, string _rightVows, uint _date ) public {
 
@@ -350,21 +307,19 @@ function ringBell() public payable {
   //minimum gift to sent
     require(msg.value > .0001 ether);
 }
-
 //reusable modifier
 modifier onlyOwner() {
   require(msg.sender == owner);
   _; //placeholder for the contents of the fxo you are modififying
 }
 
+//https://ethereum.stackexchange.com/questions/19380/external-vs-public-best-practices
 function collect() external onlyOwner {
   owner.transfer(addres(this).balance);
 }
-
 function getBalance() public view onlyOwner returns (uint) {
   return address(this).balance;
 }
-
 }
 
 
