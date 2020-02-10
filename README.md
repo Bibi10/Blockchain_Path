@@ -333,13 +333,19 @@ address [] public registeredMarriages;
 
 //users will call this fxo
 function createMarriage(string _leftName, string _leftVows, string _rightName, string _rightVows, uint _date) public {
-  address newMarriage = new Marriage(msg.sender, _leftName, _leftVows, rightName, _rightVows, _date);
-
+  address newMarriage = new Marriage(msg.sender, _leftName, _leftVows, _rightName, _rightVows, _date);
   //saving addres for front-end client
   registeredMarriages.push(newMarriage);
 }
 
+  //Event are cheap form of storage 
+  event ContractCreated(address contractAddress);
+ //Emit an event to relay message
+  emit ContractCreated(newMarriage);
 
+function getDeployedMarriages() public view returns(address[]) {
+  return registeredMarriages;
+}
 
 
 
