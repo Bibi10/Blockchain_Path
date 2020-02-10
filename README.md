@@ -279,6 +279,11 @@ address public owner; //helps identify SC or personnal wallet
 
 contract Marriage {
 
+contract MarriageNotary {
+  
+}
+
+
 //owner address
 address public owner;
 // Marriage Contract details
@@ -307,7 +312,7 @@ function ringBell() public payable {
   //minimum gift to sent
     require(msg.value > .0001 ether);
 }
-//reusable modifier
+//reusable modifier to add restriction and protect smart contract usage
 modifier onlyOwner() {
   require(msg.sender == owner);
   _; //placeholder for the contents of the fxo you are modififying
@@ -321,6 +326,22 @@ function getBalance() public view onlyOwner returns (uint) {
   return address(this).balance;
 }
 }
+
+3- Lets store the list of prev created contracts in public array of  address 
+address [] public registeredMarriages;
+//loop over array is expensive so its for any key-pair need use mapping 
+
+//users will call this fxo
+function createMarriage(string _leftName, string _leftVows, string _rightName, string _rightVows, uint _date) public {
+  address newMarriage = new Marriage(msg.sender, _leftName, _leftVows, rightName, _rightVows, _date);
+
+  //saving addres for front-end client
+  registeredMarriages.push(newMarriage);
+}
+
+
+
+
 
 
 X - ADVANCE topics
