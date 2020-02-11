@@ -281,9 +281,6 @@ contract Marriage {
 
 contract MarriageNotary {
   
-}
-
-
 //owner address
 address public owner;
 // Marriage Contract details
@@ -347,27 +344,17 @@ function getDeployedMarriages() public view returns(address[]) {
   return registeredMarriages;
 }
 
+}
 
 
 
-X - ADVANCE topics
+X - Putting the contract on Ethereum Blockchain
 
-- Immutability of Contracts
-- SC Design Patterns
-- Ethereum Name Service
-- IPFS
-- Upgradable Contracts
-- Oracles with Rhombus
-- Rhombus Network
-- Formal Verification
-- ZKP
+- Infura 
 
-XI - ADD TOPICS
+- Running node 
 
-- LLL
-- Intro Vyper
-- Writing SC in Vyper
-- EIPs
+
 
 ## CRYPTOCURRENCY
 
