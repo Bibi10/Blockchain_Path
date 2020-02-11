@@ -95,13 +95,12 @@ The Ethereum system is comprised of :
   Gas is the amount of ETH used to pay for a transaction in the network and its measured in WEI, where 1ETH is 1⁰¹⁸ Wei.
   Fee for transaction = Total gas used * gas price;
 
-* Tokens
+- Tokens
   Tokens are used to incentivize interrraction with a protocol.
   There are many type of token standar due to people creating their own.
   Exemple : ER223, 777, 827, 721..
 
 IV - Traditional and Distributed App
-
 - Distributed App (dApp)
   A dApp is an app where the server side is unique and run by all ethereum node.
   Dapp are way of building app for internet, it lets us run app with backend hosted on blockchain instead of normal server.
@@ -173,7 +172,7 @@ VII - SMART CONTRACTS
 
 . Interestingly enough, the invention of smart contracts dates back to 1996. Computer scientist Nick Szabo drew up the term “smart contracts,” and explains them as follows:
 “I call these new contracts “smart”, because they are far more functional than their inanimate paper-based ancestors. No use of artificial intelligence is implied. A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises”
-— Nick Szabo, 1996
+ Nick Szabo, 1996
 His work later went on to inspire many other researchers and scientists, including Vitalik, who created Ethereum.
 
 - Immutability of Contracts
@@ -265,7 +264,7 @@ constructor() public { //Creation de nouvelle instance du contract
 }
 }
 
-1- Storing marriage contract's owner
+3- Storing marriage contract's owner
 address public owner; //helps identify SC or personnal wallet
 
 - Save address each time a new certificate contract is instanciated.
@@ -275,12 +274,9 @@ address public owner; //helps identify SC or personnal wallet
 
 - Factory contract to call constructor function and pass the owner address
 
-2- Store the couple's names and marriage vows
-
+4- Store the couple's names and marriage vows
 contract Marriage {
-
 contract MarriageNotary {
-  
 //owner address
 address public owner;
 // Marriage Contract details
@@ -291,14 +287,13 @@ string public rightVows;
 uint public marriageDate;
 
 constructor(address _owner, string _leftName, string _leftVows, string _rightName, string _rightVows, uint _date ) public {
-
 owner = _owner;
 leftName = _leftName;
 leftVows = _leftVows;
 rightName = _rightName;
 rightVows = _rightVows;
 marriageDate = _date; 
-    }
+}
 
 //msg.value => save contains designed amount from sender in its own ledger
 //msg.sender => Money sender address
@@ -314,7 +309,6 @@ modifier onlyOwner() {
   require(msg.sender == owner);
   _; //placeholder for the contents of the fxo you are modififying
 }
-
 //https://ethereum.stackexchange.com/questions/19380/external-vs-public-best-practices
 function collect() external onlyOwner {
   owner.transfer(addres(this).balance);
@@ -331,10 +325,9 @@ address [] public registeredMarriages;
 //users will call this fxo
 function createMarriage(string _leftName, string _leftVows, string _rightName, string _rightVows, uint _date) public {
   address newMarriage = new Marriage(msg.sender, _leftName, _leftVows, _rightName, _rightVows, _date);
-  //saving addres for front-end client
+  //saving addres for front-end client  
   registeredMarriages.push(newMarriage);
 }
-
   //Event are cheap form of storage 
   event ContractCreated(address contractAddress);
  //Emit an event to relay message
@@ -343,10 +336,7 @@ function createMarriage(string _leftName, string _leftVows, string _rightName, s
 function getDeployedMarriages() public view returns(address[]) {
   return registeredMarriages;
 }
-
 }
-
-
 
 X - Putting the contract on Ethereum Blockchain
 
